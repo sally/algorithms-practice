@@ -40,3 +40,10 @@ def is_palindrome_permutation(str):
     return False
   else:
     return True
+  
+  """
+  Time complexity: O(N)
+    Iterating through the string once costs N operations
+  Space complexity: O(N)
+    Worse case, the string itself is made out of N different characters, which means that the histogram hash will have N key/value pairs in it
+  """
