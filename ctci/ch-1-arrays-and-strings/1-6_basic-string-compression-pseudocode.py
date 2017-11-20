@@ -25,3 +25,9 @@
 # repeat step above ^ (until string is done)
 
 # now compare lengths (that we have been keeping track of) of the return string and the original string, and return the shorter one
+
+"""
+Big O Analysis:
+  Space: the worst case is that the string could have all unique letters (like abc) which would end up making our return string have length 2N (a1b1c1) -- so it's O(N)
+  Time: we must iterate through the given string at least once, so it's O(N)
+"""
